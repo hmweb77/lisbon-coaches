@@ -1,4 +1,4 @@
-import Contributors from '@/components/Contribuators'
+
 import React from 'react'
 
 export default function Signup() {

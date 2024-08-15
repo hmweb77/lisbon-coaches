@@ -1,6 +1,6 @@
 // components/Contributors.js
 import Image from 'next/image';
-import im1 from "../../public/assets/IMG_0990.jpeg"
+
 const contributors = [
  
   { name: 'Contributor 1', src: im1 },

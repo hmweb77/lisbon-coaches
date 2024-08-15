@@ -1,3 +1,4 @@
+
 import Event from '@/app/section/Event'
 import FAQ from '@/app/section/FAQ'
 import Footer from '@/app/section/Footer'
@@ -18,6 +19,7 @@ export default function Home() {
        <Workshop/>
        <Testimonials/>
        <FAQ/>
+
       <Footer/>
     </>
   )
