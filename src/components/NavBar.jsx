@@ -6,26 +6,25 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import Logo from "../../public/assets/logo-image.png"
+import Logo from "../../public/assets/logo-white.svg"
+
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'About', href: '#' },
-  { name: 'Members', href: '#' },
-  { name: 'Events', href: '#' },
-  { name: 'Services', href: '#' },
+  { name: 'Home', href: '/' },
+  { name: 'Coaches', href: '/coaches' },
+  { name: 'Workshops', href: '/workshops' },
+  { name: 'Community', href: '/community' },
 ]
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-green1">
-      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8">
+    <header className="bg-purple">
+      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 lg:px-8">
         <div className="flex lg:flex-1">
-          <Link href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-            <Image alt="logo" src={Logo} className="h-10 w-28" />
+          <Link href="/" className="-m-1.5 p-1.5">
+            <Image alt="logo" src={Logo} className='w-56 h-24'/>
           </Link>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
@@ -54,15 +53,17 @@ export default function Example() {
           </button>
         </div>
       </nav>
+
+
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
         <div className="fixed inset-0 z-10" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-green1 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-          <div className="flex items-center gap-x-6">
-            <Link href="#" className="-m-1.5 p-1.5">
+        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-purple px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <div className="flex items-center gap-x-2">
+            <Link href="#" className="">
               <span className="sr-only">Your Company</span>
               <Image
                alt="logo" src={Logo} 
-                className="h-8 w-auto"
+               className='w-48 h-24'
               />
             </Link>
             <Link
@@ -88,7 +89,7 @@ export default function Example() {
                   <Link
                     key={item.name}
                     href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-yellow1"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-yellow4"
                   >
                     {item.name}
                   </Link>

@@ -32,32 +32,32 @@ export default function Workshop() {
       
     },
     {
-      name: 'Workshop2',
-      ImageURL:Workshop2,
-    },
-    {
-      name: 'Workshop3',
-      ImageURL:Workshop3,
-    },
-    {
       name: 'Workshop4',
       ImageURL:Workshop4,
-    },
-    {
-      name: 'Workshop5',
-      ImageURL:Workshop5,
-    },
-    {
-      name: 'Workshop7',
-      ImageURL:Workshop7,
     },
     {
       name: 'Workshop8',
       ImageURL:Workshop8,
     },
     {
+      name: 'Workshop2',
+      ImageURL:Workshop2,
+    },
+    {
+      name: 'Workshop5',
+      ImageURL:Workshop5,
+    },
+    {
       name: 'Workshop9',
       ImageURL:Workshop9,
+    },
+    {
+      name: 'Workshop3',
+      ImageURL:Workshop3,
+    },
+    {
+      name: 'Workshop7',
+      ImageURL:Workshop7,
     },
     {
       name: 'Workshop10',
@@ -65,12 +65,9 @@ export default function Workshop() {
     },
   ]
   return (
-    <div className="bg-green2 py-24 sm:py-32">
+    <div className="bg-green3 text-center ">
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
-      <div className="mx-auto max-w-2xl lg:mx-0">
-        <h2 className="text-3xl text-center font-bold tracking-tight text-yellow4 sm:text-4xl">Future workshops</h2>
-        
-      </div>
+        <h2 className="text-3xl text-center pt-8 font-bold tracking-tight text-yellow4 sm:text-4xl">WORKSHOP PROGRAM</h2>
       <dl className="mx-auto mt-16 grid max-w-2xl text-center grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {workshops.map((workshop) => (
             <div key={workshop.name} className="flex flex-col items-center">
@@ -79,11 +76,6 @@ export default function Workshop() {
                 alt={`Image of ${workshop.name}`}
                 className="mb-4"
               />
-              <Link  href="#" >
-              <button className="bg-yellow2 text-white rounded-md px-6 py-2">
-                Read more
-              </button>
-              </Link>
             </div>
           ))}
         </dl>

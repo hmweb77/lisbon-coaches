@@ -8,20 +8,20 @@ import ImageQ from "../../../public/assets/hero2.png"
 
 export default function Event() {
     return (
-      <div className="relative bg-green3">
-        <div className="  md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2">
+      <div className=" bg-green3">
+        <div className=" md:absolute lg:w-1/2">
           <Image
             alt=""
             src={ImageW}
-            className="pt-20"
+            className="pt-20 pl-16"
           />
         
         </div>
-        <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">
-          <div className="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
+        <div className=" mx-auto max-w-7xl py-24 lg:px-8 lg:py-40">
+          <div className="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 ">
           
-            <p className="mt-2 text-3xl font-bold tracking-tight text-yellow4 sm:text-4xl">Our next workshop</p>
-            <p className="mt-6 text-base leading-7 text-gray-300">
+            <p className="mt-2 text-3xl font-bold  text-yellow4 sm:text-4xl">Our next workshop</p>
+            <p className="mt-6 text-base leading-7 text-white">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a
               scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum
               tincidunt duis.
@@ -29,7 +29,7 @@ export default function Event() {
             <div className="mt-8">
               <a
                 href="#"
-                className="inline-flex rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                className="inline-flex rounded-md bg-yellow4 px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-yellow2 "
               >
                 Join our next workshop
               </a>

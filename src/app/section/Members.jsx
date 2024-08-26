@@ -38,11 +38,11 @@ export default function Members() {
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className=" px-6 lg:px-8">
-          <h2 className="text-3xl text-center font-bold tracking-tight text-yellow4 sm:text-4xl">
-            Our team
+          <h2 className="text-3xl text-center font-bold tracking-tight text-black sm:text-4xl">
+          WORKSHOP FACILITATORS
           </h2>
         <ul
-          className="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6"
+          className="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-5"
         >
           {people.map((person) => (
             <li key={person.name}>

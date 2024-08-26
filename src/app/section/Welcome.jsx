@@ -1,36 +1,43 @@
 import Image from "next/image";
-import Head from "../../../public/assets/hero-design1.png"
-// components/WelcomeSection.jsx
+import ImageW from "../../../public/assets/logo-white.svg";
+
 export default function WelcomeSection() {
-    return (
-      <section className="bg-purple text-center ">
-        <div>
-            <Image alt="lisbon-coaches-image"  className="w-full "  src={Head} />
+  return (
+    <div className="bg-custom bg-cover bg-center px-6 pb-6 lg:px-8">
+      <div className="mx-auto max-w-3xl text-center">
+        <div className="flex justify-center mb-6">
+          <Image src={ImageW} alt="logo" className="w-80 h-64" />
         </div>
-        <h1 className="text-white font-bold text-4xl mb-4">WELCOME TO LISBON COACHES</h1>
-  
-        <div className="flex justify-center space-x-2 mb-6">
-          {Array(12).fill(0).map((_, index) => (
-            <span key={index} className="w-4 h-4 bg-yellow-500 rounded-full"></span>
-          ))}
+        <h2 className="text-3xl font-bold text-white sm:text-5xl">
+          WELCOME TO LISBON COACHES
+        </h2>
+        <div className="flex justify-center space-x-2 my-10">
+          {Array(12)
+            .fill(0)
+            .map((_, index) => (
+              <span
+                key={index}
+                className="w-4 h-4 bg-yellow-500 rounded-full"
+              ></span>
+            ))}
         </div>
-  
-        <p className="text-white text-lg mb-6 max-w-2xl mx-auto">
-          We are a community of dedicated coaches who strive to impact the world, one human at a time.
-          Whether you suffer from procrastination, anxiety, or simply want to take life to the next level,
-          here you will find the support that you need.
+        <p className="mt-6 text-3xl leading-8 text-white">
+          We are a community of dedicated coaches who strive to impact the
+          world, one human at a time. Whether you suffer from procrastination,
+          anxiety, or simply want to take life to the next level, here you will
+          find the support that you need.
         </p>
-  
-        <div className="flex justify-center space-x-2 mb-6">
-          {Array(12).fill(0).map((_, index) => (
-            <span key={index} className="w-4 h-4 bg-yellow-500 rounded-full"></span>
-          ))}
+        <div className="flex justify-center space-x-2 my-10">
+          {Array(12)
+            .fill(0)
+            .map((_, index) => (
+              <span
+                key={index}
+                className="w-4 h-4 bg-yellow-500 rounded-full"
+              ></span>
+            ))}
         </div>
-  
-        <button className="bg-yellow-500 text-blue-900 font-semibold py-2 px-6 rounded-full">
-          Subscribe Newsletter
-        </button>
-      </section>
-    );
-  }
-  
+      </div>
+    </div>
+  );
+}

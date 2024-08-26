@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'custom': "url('/assets/backgr.png')", 
+      },
       colors :{
         green1:"#397F97",
         green2: "#125362",
@@ -17,7 +20,8 @@ module.exports = {
         yellow4 :"#F5B736",
         blue1:"#0B9FBE",
        blue2:"#07819B",
-       purple:"#2D2761"
+       purple:"#2D2761",
+       gray:"#F8F8F8",
       },
     },
   },
