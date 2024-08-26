@@ -21,10 +21,10 @@ export default function Projects() {
         OUR PROJECTS
         </h1>
       </div>
-      <div className="bg-purple flex justify-around items-center p-10">
-        <Image alt="project" src={Image1} />
-        <Image alt="project" src={Image2} />
-      </div>
+      <div className="bg-purple flex flex-col md:flex-row justify-around items-center p-10 space-y-6 md:space-y-0 md:space-x-6">
+  <Image alt="project" src={Image1} />
+  <Image alt="project" src={Image2} />
+</div>
     </section>
   );
 }
