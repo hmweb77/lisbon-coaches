@@ -36,7 +36,7 @@ export default function Example() {
         </div>
         <div className="flex flex-1 items-center justify-end gap-x-6">
           <Link
-            href="#"
+            href="/signup"
             className="rounded-md bg-yellow4 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-yellow1 "
           >
            Signup
@@ -46,7 +46,7 @@ export default function Example() {
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
           >
             <span className="sr-only">Open main menu</span>
             <Bars3Icon aria-hidden="true" className="h-6 w-6" />
@@ -67,7 +67,7 @@ export default function Example() {
               />
             </Link>
             <Link
-              href="#"
+              href="/signup"
               className="ml-auto rounded-md bg-yellow4 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-yellow1 "
         
             >

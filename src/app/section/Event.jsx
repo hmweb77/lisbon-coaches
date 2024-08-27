@@ -13,7 +13,7 @@ export default function Event() {
           <Image
             alt=""
             src={ImageW}
-            className="pt-20 pl-16"
+            className="pt-20 lg:pl-16"
           />
         
         </div>

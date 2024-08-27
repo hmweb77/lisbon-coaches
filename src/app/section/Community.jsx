@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 
 import ImageW from "../../../public/assets/LisbonComm.png"
+import Link from 'next/link'
 
 export default function Community() {
   return (
@@ -29,12 +30,13 @@ export default function Community() {
             Whether you're looking to expand your business or seeking growth and connections abroad, this group is for you!
           </p>
           <div className="mt-8 flex justify-center md:justify-start">
-            <a
-              href="#"
+            <Link
+              href="https://www.meetup.com/lisbon-inspireme-meetup-group"
+              target='_blank'
               className="inline-flex items-center rounded-md bg-yellow-500 px-6 py-3 text-base font-semibold text-black shadow-md hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-600"
             >
               Join our next Event
-            </a>
+            </Link>
           </div>
         </div>
       </div>
