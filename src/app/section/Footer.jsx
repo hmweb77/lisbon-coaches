@@ -38,10 +38,10 @@ export default function Footer() {
           <Link href="/">
             <Image src={instagram} alt="instagram" width={50} />
           </Link>
-          <Link href="/">
+          <Link href="https://www.linkedin.com/company/lisbon-coaches/posts/?feedView=all">
             <Image src={linkedin} alt="linkedin" width={50} />
           </Link>
-          <Link href="/">
+          <Link href="https://www.meetup.com/lisbon-inspireme-meetup-group/">
             <Image src={meetup} alt="meetup" width={50} />
           </Link>
         </div>

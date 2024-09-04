@@ -5,6 +5,8 @@ import React from "react";
 import Image1 from "../../../public/assets/joana.png"
 import Image2 from "../../../public/assets/nicola.png"
 import Image3 from "../../../public/assets/fabricio.png"
+import Image4 from "../../../public/assets/sonia.jpg"
+import Image5 from "../../../public/assets/Andreas.jpg"
 const people = [
   {
     name: "Joanna",
@@ -24,12 +26,12 @@ const people = [
   {
     name: "Sonia",
     role: "Vocal Coach",
-     imageUrl: Image1,
+     imageUrl: Image4,
   },
   {
     name: "Andreas",
     role: "Leadership Coach",
-     imageUrl: Image2
+     imageUrl: Image5
     },
   // More people...
 ];

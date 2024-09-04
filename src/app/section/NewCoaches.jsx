@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 import Image1 from "../../../public/assets/joana.png";
 import Image2 from "../../../public/assets/nicola.png";
 import Image3 from "../../../public/assets/fabricio.png";
@@ -34,11 +34,14 @@ export default function OurCoaches() {
           {coaches.map((coach, index) => (
             <div key={index} className="text-center">
               <div className="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full overflow-hidden border-8 border-yellow-500 mx-auto">
+               <Link href="/coaches">
+               
                 <Image
                   src={coach.imageSrc}
                   alt={coach.name}
                   className="w-full h-full object-cover"
                 />
+               </Link>
               </div>
               <h3 className="mt-8 text-lg font-semibold  text-purple">
                 {coach.name}

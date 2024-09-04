@@ -4,6 +4,7 @@ import React from 'react'
 import ImageH from "../../../public/assets/hero-image.jpg"
 import ImageW from "../../../public/assets/hero1.png"
 import ImageQ from "../../../public/assets/hero2.png"
+import Link from 'next/link'
 
 
 export default function Event() {
@@ -27,12 +28,12 @@ export default function Event() {
               tincidunt duis.
             </p>
             <div className="mt-8">
-              <a
-                href="#"
+              <Link
+                href="https://www.eventbrite.com/e/bilhetes-inspiring-leader-workshop-970415848927?aff=ehometext&keep_tld=1"
                 className="inline-flex rounded-md bg-yellow4 px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-yellow2 "
               >
                 Join our next workshop
-              </a>
+              </Link>
             </div>
           </div>
         </div>

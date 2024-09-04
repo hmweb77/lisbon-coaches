@@ -6,7 +6,7 @@ export default function WelcomeSection() {
     <div className="bg-custom bg-cover bg-center px-6 pb-6 lg:px-8">
       <div className="mx-auto max-w-3xl text-center">
         <div className="flex justify-center mb-6">
-          <Image src={ImageW} alt="logo" className="w-80 h-64" />
+          <Image src={ImageW} alt="logo" className="w-80 h-64" priority={true} />
         </div>
         <h2 className="text-3xl font-bold text-white sm:text-5xl">
           WELCOME TO LISBON COACHES

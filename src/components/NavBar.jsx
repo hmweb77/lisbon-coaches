@@ -24,7 +24,7 @@ export default function Example() {
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 lg:px-8">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
-            <Image alt="logo" src={Logo} className='w-56 h-24'/>
+            <Image alt="logo" src={Logo} className='w-56 h-24' priority={true} />
           </Link>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">

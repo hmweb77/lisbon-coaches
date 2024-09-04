@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-import ImageW from "../../../public/assets/LisbonComm.png"
+import ImageW from "../../../public/assets/inspiremeE.png"
 import Link from 'next/link'
 
 export default function Community() {
@@ -17,17 +17,17 @@ export default function Community() {
         </div>
       </div>
       <div className="relative mx-auto flex flex-col items-center md:flex-row max-w-7xl lg:items-start">
-        <div className="md:w-1/2 lg:w-1/2">
+        <div className="md:w-1/2 lg:w-1/2 ">
           <Image
             alt="Community Image"
             src={ImageW}
-            className="w-full h-auto object-cover rounded-md"
+            className="w-full h-auto object-cover rounded-2xl "
           />
         </div>
-        <div className="mt-8 md:mt-0 md:ml-16 lg:ml-24 text-center md:text-left md:w-1/2 lg:w-1/2">
+        <div className="pt-16 md:mt-0 md:ml-16 lg:ml-24 text-center md:text-left md:w-1/2 lg:w-1/2">
           <p className="text-white text-lg leading-7">
             Join a community of local professionals, expats, and digital nomads who are passionate about <strong>personal growth.</strong> 
-            Whether you're looking to expand your business or seeking growth and connections abroad, this group is for you!
+           <br/> Whether you're looking to expand your business or seeking growth and connections abroad, this group is for you!
           </p>
           <div className="mt-8 flex justify-center md:justify-start">
             <Link

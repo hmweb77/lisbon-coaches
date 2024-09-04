@@ -13,7 +13,7 @@ export default function Hero() {
       <div className=" bg-purple ">  
         <div className="mx-auto max-w-2xl  ">
           <div className="text-center">
-            <Image src={ImageW} alt="logo" />
+            <Image src={ImageW} alt="logo" priority={true} />
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
               WELCOME TO LISBON COACHES
             </h1>
