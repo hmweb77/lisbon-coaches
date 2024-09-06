@@ -26,7 +26,7 @@ export default function Community() {
         </div>
         <div className="pt-16 md:mt-0 md:ml-16 lg:ml-24 text-center md:text-left md:w-1/2 lg:w-1/2">
           <p className="text-white text-lg leading-7">
-            Join a community of local professionals, expats, and digital nomads who are passionate about <strong>personal growth.</strong> 
+            Join community of local professionals, expats, and digital nomads who are passionate about <strong>personal growth.</strong> 
            <br/> Whether you're looking to expand your business or seeking growth and connections abroad, this group is for you!
           </p>
           <div className="mt-8 flex justify-center md:justify-start">
