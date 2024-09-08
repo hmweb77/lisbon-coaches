@@ -1,37 +1,39 @@
 "use client";
 
-import { useState } from "react";
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import { auth } from "@/firebase/config"; // Ensure this correctly imports your Firebase configuration
+// import { useState } from "react";
+// import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+// import { auth } from "@/firebase/config"; // Ensure this correctly imports your Firebase configuration
 
 export default function Signup() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [error, setError] = useState(null);
-  const [loading, setLoading] = useState(false);
+  // const [email, setEmail] = useState("");
+  // const [password, setPassword] = useState("");
+  // const [error, setError] = useState(null);
+  // const [loading, setLoading] = useState(false);
 
-  const signUpWithEmailPassword = async (e) => {
-    e.preventDefault();
-    setLoading(true);
-    setError(null);
+  // const signUpWithEmailPassword = async (e) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+  //   setError(null);
 
-    try {
-      const userCredential = await createUserWithEmailAndPassword(
-        auth,
-        email,
-        password
-      );
-      console.log("User created successfully:", userCredential.user);
-      setEmail("");
-      setPassword("");
-      // Optionally redirect to another page
-    } catch (error) {
-      console.error("Error creating user:", error);
-      setError(error.message);
-    } finally {
-      setLoading(false);
-    }
-  };
+  //   try {
+  //     const userCredential = await createUserWithEmailAndPassword(
+  //       auth,
+  //       email,
+  //       password
+  //     );
+
+
+  //     console.log("User created successfully:", userCredential.user);
+  //     setEmail("");
+  //     setPassword("");
+  //     // Optionally redirect to another page
+  //   } catch (error) {
+  //     console.error("Error creating user:", error);
+  //     setError(error.message);
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
 
   return (
     <>
@@ -42,7 +44,7 @@ export default function Signup() {
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-[480px]">
           <div className="bg-white px-6 py-12 shadow sm:rounded-lg sm:px-12">
             <form
-              onSubmit={signUpWithEmailPassword}
+              // onSubmit={signUpWithEmailPassword}
               method="POST"
               className="space-y-6"
             >
@@ -58,8 +60,8 @@ export default function Signup() {
                     id="email"
                     name="email"
                     type="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
+                    // value={email}
+                    // onChange={(e) => setEmail(e.target.value)}
                     required
                     autoComplete="email"
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -79,8 +81,8 @@ export default function Signup() {
                     id="password"
                     name="password"
                     type="password"
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
+                    // value={password}
+                    // onChange={(e) => setPassword(e.target.value)}
                     required
                     autoComplete="current-password"
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -88,15 +90,16 @@ export default function Signup() {
                 </div>
               </div>
 
-              {error && <div className="text-red-500 text-sm">{error}</div>}
+              {/* {error && <div className="text-red-500 text-sm">{error}</div>} */}
 
               <div>
                 <button
                   type="submit"
-                  disabled={loading}
+                  // disabled={loading}
                   className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:opacity-50"
                 >
-                  {loading ? "Signing Up..." : "Sign Up"}
+                  Sign Up
+                  {/* {loading ? "Signing Up..." : "Sign Up"} */}
                 </button>
               </div>
             </form>
