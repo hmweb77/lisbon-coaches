@@ -21,7 +21,7 @@ export default function WelcomeSection() {
               ></span>
             ))}
         </div>
-        <p className="mt-6 text-3xl leading-8 text-white">
+        <p className="mt-6 text-lg leading-8 text-white">
           We are a community of dedicated coaches who strive to impact the
           world, one human at a time. Whether you suffer from procrastination,
           anxiety, or simply want to take life to the next level, here you will

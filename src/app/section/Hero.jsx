@@ -27,7 +27,7 @@ export default function Hero() {
                   ></span>
                 ))}
             </div>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
+            <p className="mt-6 text-sm  text-gray-300">
               We are a community of dedicated coaches who strive to impact the
               world, one human at a time. Whether you suffer from
               procrastination, anxiety, or simply want to take life to the next
