@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image1 from "../../../public/assets/joana.png";
 import Image2 from "../../../public/assets/nicola.png";
 import Image3 from "../../../public/assets/fabricio.png";
+import Image4 from "../../../public/assets/Andreas.jpg";
 
 export default function OurCoaches() {
   const coaches = [
@@ -17,6 +18,14 @@ export default function OurCoaches() {
     {
       name: "FABRICIO",
       imageSrc: Image3,
+    },
+    {
+      name: "ANDREAS",
+      imageSrc: Image4,
+    },
+    {
+      name: "veb",
+      imageSrc: Image4,
     },
   ];
 

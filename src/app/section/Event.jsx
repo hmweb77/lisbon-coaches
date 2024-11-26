@@ -18,14 +18,10 @@ export default function Event() {
             Our next workshop
           </p>
           <p className="mt-6 text-base leading-7 text-white">
-            The Inspiring Leader workshop, organized by Lisbon Coaches, is an
-            exciting upcoming event designed to cultivate leadership skills
-            through the theme "Inspiring Minds, Leading Hearts." Set to take
-            place on Saturday, September 21st, from 10:00 to 13:00, the event
-            will be hosted at Rocha do Conde de Óbidos in Lisbon. This Learn &
-            Grow workshop aims to engage participants with practical insights on
-            leadership and personal development, empowering them to lead with
-            both intellect and compassion.
+            In this workshop, you'll learn the tools and techniques to become an
+            Inspiring Leader. You'll discover how to motivate and engage your
+            team, driving them to achieve great performance and innovation. Join
+            us and transform your leadership style to lead your team to success.
           </p>
           <div className="mt-8">
             <Link

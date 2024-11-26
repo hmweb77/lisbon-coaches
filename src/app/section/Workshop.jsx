@@ -1,15 +1,15 @@
 "use client";
 import Image from "next/image";
 
-import Workshop1 from "../../../public/assets/workshop1.png";
-import Workshop2 from "../../../public/assets/workshop2.png";
-import Workshop3 from "../../../public/assets/workshop3.png";
-import Workshop4 from "../../../public/assets/workshop4.png";
-import Workshop5 from "../../../public/assets/workshop5.png";
-import Workshop7 from "../../../public/assets/workshop7.png";
-import Workshop8 from "../../../public/assets/workshop8.png";
-import Workshop9 from "../../../public/assets/workshop9.png";
-import Workshop10 from "../../../public/assets/workshop10.png";
+import Workshop1 from "../../../public/assets/workshopss1.png";
+import Workshop2 from "../../../public/assets/workshopss2.png";
+import Workshop3 from "../../../public/assets/workshopss3.png";
+import Workshop4 from "../../../public/assets/workshopss4.png";
+import Workshop5 from "../../../public/assets/workshopss5.png";
+import Workshop7 from "../../../public/assets/workshopss6.png";
+import Workshop8 from "../../../public/assets/workshopss7.png";
+import Workshop9 from "../../../public/assets/workshopss8.png";
+import Workshop10 from "../../../public/assets/workshopss9.png";
 import Link from "next/link";
 
 export default function Workshop() {
@@ -22,15 +22,15 @@ export default function Workshop() {
     },
     {
       name: 'Workshop4',
-      ImageURL:Workshop4,
+      ImageURL:Workshop2,
     },
     {
       name: 'Workshop8',
-      ImageURL:Workshop8,
+      ImageURL:Workshop3,
     },
     {
       name: 'Workshop2',
-      ImageURL:Workshop2,
+      ImageURL:Workshop4,
     },
     {
       name: 'Workshop5',
@@ -38,15 +38,15 @@ export default function Workshop() {
     },
     {
       name: 'Workshop9',
-      ImageURL:Workshop9,
+      ImageURL:Workshop7,
     },
     {
       name: 'Workshop3',
-      ImageURL:Workshop3,
+      ImageURL:Workshop8,
     },
     {
       name: 'Workshop7',
-      ImageURL:Workshop7,
+      ImageURL:Workshop9,
     },
     {
       name: 'Workshop10',
