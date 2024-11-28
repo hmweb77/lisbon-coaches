@@ -4,6 +4,7 @@ import Image2 from "../../../public/assets/nicola.png";
 import Image3 from "../../../public/assets/fabricio.png";
 import Image4 from "../../../public/assets/Andreas.jpg";
 import Image6 from "../../../public/assets/sonia.jpg";
+import Image5 from "../../../public/assets/veb.jpg";
 
 export default function CoachesDets() {
   const coaches = [
@@ -39,30 +40,16 @@ export default function CoachesDets() {
         "Andreas’s work as an independent systemic consultant, communication trainer, and coach is specializing in Systemic Leadership & Organizational Development (OSM – Open System Model). His work helps organizations and leaders gain clarity in their systems, recognize underlying principles, and improve social dynamics to enhance performance and future success. Andreas fosters a shift from power to empowerment, emphasizing decentralized systems and collective decision-making. With a background in global business and strategic management, he has led projects across various industries worldwide. Andreas is driven by a passion for creating innovative structures that support human evolution and organizational transformation. Born in Germany, his international experience spans Europe, North and South America, and Australasia.",
       buttonText: "Contact Andreas",
     },
-    {
-      name: "VEB BANSAL",
-      imageSrc: Image4,
-      quote: "",
-      description:
-        "I'm Veb, a fractional CMO for B2B SaaS companies. I have over 15 years of experience in launching and scaling technology companies in B2B enterprise and SaaS markets across the US, Europe, and India. My mission is to help founders grow their B2B startups faster and better using my expertise in product marketing, demand generation, marketing operations, and growth analytics. I work with clients to shape a clear B2B strategy, start the growth process, and set up the pillars for sustained B2B growth. I´ve helped companies create new categories, enter new markets, and accelerated growth with fearless execution and data-driven insights.",
-      buttonText: "Contact Veb",
-    },
+    
     {
       name: "SONIA SILVA",
       imageSrc: Image6,
       quote: "“Follow your dreams, they know the way!”",
       description:
-        "I´m a graduate Social Psychologist with experience in Team Management in international corporations and Non-Profit organizations. Currently, I´m working as the Project Manager for global projects.I love working with people and exploring their full potential. I believe that leadership is a beautiful skill-building journey, one that transcends the boundaries of professional and personal life. Are you ready to embark on this journey with me? Let's fasten our seatbelts!",
+        "To truly impact others, we must first understand our inner voice and share it with confidence. This belief has guided me through 16 years of experience, starting as a Speech Therapist and evolving into my role as a Vocal and Communication Coach. Along the way, I’ve supported professionals, families, and, more recently, entrepreneurs, leaders, and their teams, helping them communicate with clarity and inspire their audiences in meetings and conferences. I’m also a DiSC Certified Trainer, co-host of Storytelling Lisboa (Portuguese edition), and an active member of the TEDxLisboa team.When I’m not working, you’ll likely find me lost in a great book, hiking, or savoring music and coffee with friends. Speaking of coffee—let’s grab one and share our stories! Connection starts here.",
       buttonText: "Contact Sonia",
     },
-    {
-      name: "MIGENA GJERAZI",
-      imageSrc: Image6,
-      quote: "“Follow your dreams, they know the way!”",
-      description:
-        "I´m a graduate Social Psychologist with experience in Team Management in international corporations and Non-Profit organizations. Currently, I´m working as the Project Manager for global projects.I love working with people and exploring their full potential. I believe that leadership is a beautiful skill-building journey, one that transcends the boundaries of professional and personal life. Are you ready to embark on this journey with me? Let's fasten our seatbelts!",
-      buttonText: "Contact Migena",
-    },
+    
   ];
 
   return (
@@ -75,15 +62,15 @@ export default function CoachesDets() {
           }`}
         >
           {/* Image Section */}
-          <div className="flex flex-col items-center lg:w-2/5 mb-8 lg:mb-0">
-            <div className="w-60 h-60 rounded-full overflow-hidden shadow-lg border-4 border-yellow-500 flex justify-center items-center">
+          <div className="flex pt-16 flex-col items-center lg:w-2/5 mb-8 lg:mb-0">
+            <div className="w-60  h-60 rounded-full overflow-hidden shadow-lg border-4 border-yellow-500 flex justify-center items-center">
               <Image
                 src={coach.imageSrc}
                 alt={coach.name}
                 className="w-full h-full object-cover"
               />
             </div>
-            <button className="mt-6 bg-purple-600 text-white py-2 px-6 rounded-full hover:bg-purple-700 transition duration-300">
+            <button className="mt-6 bg-purple text-white py-2 px-6 rounded-full hover:bg-purple-700 transition duration-300">
               {coach.buttonText}
             </button>
           </div>

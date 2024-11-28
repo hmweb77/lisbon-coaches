@@ -7,6 +7,7 @@ import Image2 from "../../../public/assets/nicola.png";
 import Image3 from "../../../public/assets/fabricio.png";
 import Image4 from "../../../public/assets/sonia.jpg";
 import Image5 from "../../../public/assets/Andreas.jpg";
+import Image6 from "../../../public/assets/veb.jpg";
 const people = [
   {
     name: "Joanna",
@@ -29,20 +30,16 @@ const people = [
     imageUrl: Image5,
   },
   {
-    name: "Veb",
-    role: "Fractional CMO ",
-    imageUrl: Image5,
-  },
-  {
     name: "Sonia",
     role: "Vocal Coach",
     imageUrl: Image4,
   },
   {
-    name: "Migena",
-    role: "Leadership Coach",
-    imageUrl: Image5,
+    name: "Veb",
+    role: "Fractional CMO ",
+    imageUrl: Image6,
   },
+  
   // More people...
 ];
 
@@ -53,7 +50,7 @@ export default function Members() {
         <h2 className="text-3xl text-center font-bold tracking-tight text-black sm:text-4xl">
           WORKSHOP FACILITATORS
         </h2>
-        <ul className="mx-auto mt-20 grid  max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-4 xl:grid-cols-4">
+        <ul className="mx-auto mt-20 grid  max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-4 xl:grid-cols-4">
           {people.map((person) => (
             <li key={person.name}>
               <Image

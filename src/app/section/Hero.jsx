@@ -2,10 +2,10 @@
 import Image from "next/image";
 import React from "react";
 
-import ImageH from "../../../public/assets/logo-nobg.png";
+
 
 import ImageW from "../../../public/assets/logo-white.svg";
-import ImageQ from "../../../public/assets/hero2.png";
+
 
 export default function Hero() {
   return (

@@ -2,17 +2,17 @@
 import Image from "next/image";
 import React from "react";
 import ImageH from "../../../public/assets/hero-image.jpg";
-import ImageW from "../../../public/assets/hero1.png";
+import ImageW from "../../../public/assets/Screenshot 2024-11-28 at 19.37.09.png";
 import ImageQ from "../../../public/assets/hero2.png";
 import Link from "next/link";
 
 export default function Event() {
   return (
     <div className=" bg-green3">
-      <div className=" md:absolute lg:w-1/2">
-        <Image alt="" src={ImageW} className="pt-20 lg:pl-16" />
+      <div className="  md:absolute lg:w-1/2">
+        <Image alt="" src={ImageW} className=" lg:pl-16" />
       </div>
-      <div className=" mx-auto max-w-7xl py-24 lg:px-8 lg:py-40">
+      <div className=" text-center pb-8 mx-auto max-w-7xl  lg:px-8 lg:py-40">
         <div className="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 ">
           <p className="mt-2 text-3xl font-bold  text-yellow4 sm:text-4xl">
             Our next workshop
