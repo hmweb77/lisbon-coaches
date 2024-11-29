@@ -25,7 +25,7 @@ export default function Event() {
           </p>
           <div className="mt-8">
             <Link
-              href="https://www.eventbrite.com/e/bilhetes-inspiring-leader-workshop-970415848927?aff=ehometext&keep_tld=1"
+              href="https://www.eventbrite.pt/e/networking-like-a-pro-for-inspiring-leaders-tickets-1053673940119?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=wsa&aff=ebdsshwebmobile"
               className="inline-flex rounded-md bg-yellow4 px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-yellow2 "
             >
               Join our next workshop
