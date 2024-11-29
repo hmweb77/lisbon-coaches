@@ -49,7 +49,7 @@ export default function CoachesDets() {
     {
       name: "SONIA SILVA",
       imageSrc: Image6,
-      quote: "“Follow your dreams, they know the way!”",
+      quote: "",
       description:
         "To truly impact others, we must first understand our inner voice and share it with confidence. This belief has guided me through 16 years of experience, starting as a Speech Therapist and evolving into my role as a Vocal and Communication Coach. Along the way, I’ve supported professionals, families, and, more recently, entrepreneurs, leaders, and their teams, helping them communicate with clarity and inspire their audiences in meetings and conferences. I’m also a DiSC Certified Trainer, co-host of Storytelling Lisboa (Portuguese edition), and an active member of the TEDxLisboa team.When I’m not working, you’ll likely find me lost in a great book, hiking, or savoring music and coffee with friends. Speaking of coffee—let’s grab one and share our stories! Connection starts here.",
       buttonText: "Contact Sonia",
